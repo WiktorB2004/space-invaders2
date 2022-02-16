@@ -1,7 +1,9 @@
 ### Pygame - Space Invaders
 
-## Author: Wiktor Byrka, Assets and idea from Tech With Tim youtube channel
+This repo includes my python portfolio project on which I developed my Git Version Control management and python coding.
 
-This repo includes my python portfolio project on which I developed my Version Control management and python coding.
+## Author:
+
+Wiktor Byrka, Assets and idea from Tech With Tim youtube channel
 
 # Screenshots:
