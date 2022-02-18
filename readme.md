@@ -1,6 +1,6 @@
 ### Pygame - Space Invaders
 
-This repo includes my python portfolio project on which I developed my Git Version Control management and python coding.
+This repo includes my python portfolio project on which I developed my Git Version Control and python coding.
 
 ## Author:
 
