@@ -1,5 +1,4 @@
 # Imports
-from re import S
 import pygame
 import os 
 import random
@@ -151,8 +150,6 @@ def main():
     FPS = 60
     level = 0
     lives = 5
-    player_vel = 5
-    player = Player(200,200)
     main_font = pygame.font.SysFont('comicsans', 30)
     lost_font = pygame.font.SysFont('comicsans', 40)
     clock = pygame.time.Clock()
@@ -227,7 +224,7 @@ def main():
             player.y -= player_vel
         if keys[pygame.K_s] and player.y + player_vel + player.get_height() + 15 < HEIGHT: # Down
             player.y += player_vel
-        
+            
         for enemy in enemies[:]:
             enemy.move(enemy_vel)
             enemy.move_lasers(laser_vel, player)
@@ -263,6 +260,5 @@ def main_menu():
     
 if __name__ == '__main__':
     main_menu()
-    
 
 
