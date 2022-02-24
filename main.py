@@ -149,12 +149,25 @@ def collide(obj1, obj2):
 def main():
     run = True
     FPS = 60
-    level = 1
+    level = 0
     lives = 5
     player_vel = 5
     player = Player(200,200)
     main_font = pygame.font.SysFont('comicsans', 30)
+    lost_font = pygame.font.SysFont('comicsans', 40)
     clock = pygame.time.Clock()
+    
+    player_vel = 5
+    player = Player(300, 600)
+    
+    enemies = []
+    enemy_vel = 2
+    wave_length = 5
+    
+    laser_vel = 5
+    
+    lost = False
+    lost_count = 0
     
     def redraw_window():
         WIN.blit(BG, (0, 0))
